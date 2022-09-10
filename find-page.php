@@ -1,6 +1,5 @@
 <?php
 /**
- * @link              https://binalajudiya.com/
  * @since             1.0.0
  * @package           Find Page
  *
