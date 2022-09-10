@@ -1,0 +1,92 @@
+/** Find page plugin Styles */
+.findpage__main {
+    display: flex;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    background: linear-gradient(120deg, #093c58cf, #1b5d80cf);
+    color: #fff;
+    box-shadow: 0px 0px 10px #00070acf;
+    padding: 30px 0;
+}
+.fp__title h1 {
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.fp__instruction {
+    background: #4b8196;
+    padding: 5px 20px;
+}
+
+.fp__form_wrap {
+    color: #000;
+    background: #f2f2f2c7;
+    margin: 10px 0;
+}
+form.fp__form {
+    padding: 10px 20px;
+}
+.fp__input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fp__input .fp__input_field {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #093c58cf;
+    box-shadow: 0px 0px 2px #093c58cf;
+    width: 100%;
+}
+
+input#submit {
+    background-color: #093c58cf;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 2px #093c58cf;
+    cursor: pointer;
+    border: 1px solid #093c58cf;
+    transition: border 500ms ease-out;
+    -webkit-transition: border 500ms ease-out;
+    -moz-transition: border 500ms ease-out;
+    -o-transition: border 500ms ease-out;
+}
+input#submit:hover{
+    background-color: #1b5d80cf;
+    border-color: #1b5d80cf;
+}
+.fp__result_wrap {
+    background: #f5f5f5;
+    color: #000;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+table.fp__result_list {border-collapse: collapse;width: 100%;}
+
+.fp__result_list tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.fp__result_list td {
+    border: 1px solid #1b5d80cf;
+    text-align: left;
+    padding: 8px;
+}
+
+.fp__result_list td.fp__list_title {
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 20px;
+}
+.fp_notfound{
+    color: red;
+    margin: 0;
+    font-size: 14px;
+}
